@@ -261,6 +261,10 @@ which is fine for a demo but should use a signed link in production.
 - Form errors are linked with `aria-describedby` and announced through live regions.
 - Colors meet WCAG AA contrast; the brand gold is darkened for text (`accent-ink`).
 - Motion is limited to showing what changed and is turned off for `prefers-reduced-motion`.
-- Lighthouse (mobile): Accessibility, Best Practices and SEO score 100 on the home, booking and manage pages. Measure
-  performance on your deployment with [PageSpeed Insights](https://pagespeed.web.dev), since local results depend on
-  the machine running them.
+- PageSpeed Insights (mobile, emulated Moto G Power on slow 4G), measured on the live Vercel deploy on Sep 30, 2026:
+
+  | Page | Performance | Accessibility | Best Practices | SEO |
+  | --- | --- | --- | --- | --- |
+  | Home | 98 | 100 | 100 | 100 |
+  | Book a table | 98 | 100 | 100 | 100 |
+  | Manage booking | 100 | 100 | 100 | 100 |
