@@ -5,6 +5,8 @@ A production-quality restaurant booking web app for **Saltwood Kitchen**, a (fic
 and can reschedule or cancel on their own. Staff get a dashboard for the day's service and a settings screen for hours,
 capacity and closures.
 
+**Live demo:** https://saltwood-kitchen.vercel.app
+
 It runs end to end with **no backend, no database and no API keys**: data lives in the browser behind a repository
 interface, so it can be swapped for Supabase (or any API) without touching UI code.
 
